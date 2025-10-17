@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>Orbit Flip — Playable</title>
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="stylesheet" href="/style.css" />
+  <style>
+    html,body{margin:0;height:100%;background:#0c0f14;}
+    #game {position:fixed; inset:0;}
+    .cta{position:fixed; left:50%; transform:translateX(-50%); bottom:24px;
+    background:#5ef3b6; color:#0c0f14; font:600 16px/1.1 system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    border:none; padding:14px 22px; border-radius:16px; box-shadow:0 8px 24px rgba(94,243,182,.25);
+    letter-spacing:.3px; display:none}
+    .logo{position:fixed; top:14px; left:50%; transform:translateX(-50%); color:#7e8aa5;
+    font:700 12px/1 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; opacity:.9}
+  </style>
+  </head>
+  <body>
+    <div id="game"></div>
+    <div class="logo">ORBIT FLIP</div>
+    <button id="cta" class="cta">Установить</button>
+    <script src="/bundle.js"></script>
+  </body>
+  </html>
+
