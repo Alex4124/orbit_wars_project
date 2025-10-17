@@ -3,7 +3,7 @@
 Элегантный аркадный шутер на PixiJS с плавной графикой, партиклами и удобным управлением мышью/тачем. После второго поражения игра ненавязчиво предлагает скачать приложение (кнопка Download).
 
 ## Демо
-- GitHub Pages: https://<your-username>.github.io/<your-repo>/
+- GitHub Pages: https://alex4124.github.io/orbit_wars_project/
   
 (После первого пуша в `main` деплой запустится автоматически через GitHub Actions.)
 
