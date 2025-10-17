@@ -27,17 +27,15 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        working-directory: orbit_wars_project
         run: npm ci
 
       - name: Build
-        working-directory: orbit_wars_project
         run: npm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: orbit_wars_project/dist
+          path: dist
 
   deploy:
     environment:
@@ -49,4 +47,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
