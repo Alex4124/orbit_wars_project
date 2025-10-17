@@ -40,3 +40,6 @@ npm run build
 - `webpack.config.mjs` — конфиг сборки
 - `tsconfig.json` — TypeScript
 - `.gitignore` — исключает `node_modules`, `dist` и артефакты IDE
+
+
+## Developed by Alim Kamavov
